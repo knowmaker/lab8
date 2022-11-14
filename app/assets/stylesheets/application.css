@@ -1,0 +1,31 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+table {border-collapse: collapse;
+    width: 500px;
+    font-size: 20px;
+}
+td,th{border:1px solid black;
+    text-align: center;
+}
+label {font-size: 20px;}
+input[type='submit'] {width: 100px;
+    height: 30px;
+    font-size: 15px;}
+input[type='number'] {width: 150px;
+    height: 30px;
+    font-size: 15px;}
+body {background-image: url("https://kartinkin.net/uploads/posts/2022-03/1646375682_4-kartinkin-net-p-matematicheskie-kartinki-dlya-oformleniya-4.jpg");
+    background-repeat: no-repeat;}

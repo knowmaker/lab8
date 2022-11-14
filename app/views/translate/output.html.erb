@@ -1,0 +1,26 @@
+<!--<h1>Translate#output</h1>-->
+<!--<p>Find me in app/views/translate/output.html.erb</p>-->
+<h3>Таблица действий</h3>
+<table>
+  <tr>
+    <th>Шаг</th>
+    <th>Значение</th>
+  </tr>
+  <tr>
+    <td>Введенное число</td>
+    <td><%=@chislo %></td>
+  </tr>
+  <tr>
+    <td>Число в двоичном виде</td>
+    <td><%=@st %></td>
+  </tr>
+  <tr>
+    <td>Реверс числа в двоичном виде</td>
+    <td><%=@rev_st %></td>
+  </tr>
+  <tr>
+    <td>Реверс числа в десятичном виде</td>
+    <td><%=@result %></td>
+  </tr>
+</table>
+<%= link_to "Repeat translation", :translate_input %>
